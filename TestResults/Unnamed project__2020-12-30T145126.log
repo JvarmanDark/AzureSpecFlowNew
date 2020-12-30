@@ -1,0 +1,70 @@
+﻿2020-12-30T14:51:26.2594829+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-30T14:51:26.2594829+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-30T14:51:26.2594829+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\SpecFlowAzure\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-30T14:51:26.2606582+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-30T14:51:26.3003909+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\SpecFlowAzure\SpecFlowAzure\bin\Debug\SpecFlowAzure.dll
+2020-12-30T14:51:26.3003909+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\SpecFlowAzure\TestResults" (default)
+2020-12-30T14:51:26.3003909+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-30T14:51:26.3550729+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\SpecFlowAzure\TestResults\Unnamed project__2020-12-30T145126.log
+2020-12-30T14:51:26.3640639+08:00;Thread#13;Info;Checking activation
+2020-12-30T14:51:26.4469025+08:00;Thread#13;Info;Activated.
+2020-12-30T14:51:26.4469025+08:00;Thread#13;Info;Activation check completed
+2020-12-30T14:51:26.4469025+08:00;Thread#13;Info;Starting test run
+2020-12-30T14:51:26.4927043+08:00;Thread#13;Info;Discovering target: Default
+2020-12-30T14:51:26.4927043+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\SpecFlowAzure\SpecFlowAzure\bin\Debug\SpecFlowAzure.dll
+2020-12-30T14:51:26.8505786+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\SpecFlowAzure\SpecFlowAzure\bin\Debug\SpecFlowAzure.dll
+2020-12-30T14:51:26.8515365+08:00:Test Suite Dump
+2020-12-30T14:51:26.8535837+08:00:#0: Unnamed project/ - 
+2020-12-30T14:51:26.8535837+08:00:#1: Default - 
+2020-12-30T14:51:26.8535837+08:00:#2: SpecFlowAzure - 
+2020-12-30T14:51:26.8535837+08:00:#3: Google Search - 
+2020-12-30T14:51:26.8924284+08:00:#4: Page Search - TestAssembly:SpecFlowAzure/Feature:Google+Search/Scenario:Page+Search
+2020-12-30T14:51:26.8924284+08:00:End: Test Suite Dump
+2020-12-30T14:51:26.9143692+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-30T14:51:26.9164891+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-30T14:51:26.9164891+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-30T14:51:26.9203633+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-30T14:51:26.9203633+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-30T14:51:26.9203633+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-30T14:51:26.9203633+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-30T14:51:26.9223977+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-30T14:51:26.9223977+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-30T14:51:26.9243808+08:00:Thread #0: creating new test thread executor for SpecFlowAzure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-30T14:51:26.9263781+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-30T14:51:26.9293319+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-30T14:51:26.9304323+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-30T14:51:27.1345473+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\SpecFlowAzure\SpecFlowAzure\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-30T14:51:27.1405593+08:00:Thread#0:T:-> Using default config
+2020-12-30T14:51:27.5638953+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-30T14:51:27.5955095+08:00:Thread#0:B:Given That I am on the Google Search Page
+2020-12-30T14:51:42.4154779+08:00:Thread#0:T:done: DecafyingLibrariySteps.GivenThatIAmOnTheGoogleSearchPage() (14.7s)
+2020-12-30T14:51:42.4174705+08:00:Thread#0:B:When I Search for Edgewords
+2020-12-30T14:51:48.5380099+08:00:Thread#0:T:done: DecafyingLibrariySteps.WhenISearchForEdgewords() (6.1s)
+2020-12-30T14:51:48.5399156+08:00:Thread#0:B:Then I expect to see Edgewords on the first page
+2020-12-30T14:51:48.5409007+08:00:Thread#0:T:done: DecafyingLibrariySteps.ThenIExpectToSeeEdgewordsOnTheFirstPage() (0.0s)
+2020-12-30T14:51:48.5668443+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-30T14:51:48.5668443+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-30T14:51:48.5668443+08:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-12-30T14:51:48.5668443+08:00:Thread#0:Scheduler: No more tests for thread
+2020-12-30T14:51:48.5908223+08:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 21.026927 seconds
+2020-12-30T14:51:48.6516891+08:00:Trying to cancel thread
+2020-12-30T14:51:48.6516891+08:00:Thread cancelled
+2020-12-30T14:51:48.6636584+08:00:Thread#-1:Scheduler: get next test for thread -1
+2020-12-30T14:51:48.6636584+08:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-30T14:51:48.6636584+08:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-12-30T14:51:48.6666544+08:00;Thread#13;Info;test run finished
+2020-12-30T14:51:48.6666544+08:00;Thread#13;Info;publishing test results
+2020-12-30T14:51:48.6787477+08:00;Thread#13;Info;test results published
+2020-12-30T14:51:48.6796222+08:00;Thread#13;Info;generating reports
+2020-12-30T14:51:48.8558693+08:00;Thread#13;Info;Starting external report generation process
+2020-12-30T14:51:50.8897836+08:00;Thread#13;Info;Successfully generated reports.
+2020-12-30T14:51:50.8916872+08:00;Thread#13;Info;Successfully generated reports
+2020-12-30T14:51:50.9046522+08:00:Total: 1
+2020-12-30T14:51:50.9076475+08:00:Succeeded: 1
+2020-12-30T14:51:50.9086450+08:00:Ignored: 0
+2020-12-30T14:51:50.9096426+08:00:Pending: 0
+2020-12-30T14:51:50.9096426+08:00:Skipped: 0
+2020-12-30T14:51:50.9106395+08:00:Failed: 0
+2020-12-30T14:51:50.9295864+08:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-12-30T14:51:50.9295864+08:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\praja\source\repos\SpecFlowAzure\TestResults\Unnamed project__2020-12-30T145126.html'
+========== End of log file ==========

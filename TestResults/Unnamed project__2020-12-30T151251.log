@@ -1,0 +1,39 @@
+﻿2020-12-30T15:12:50.9517236+08:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-30T15:12:50.9517236+08:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.5.8 in Framework clr40 in x86 mode execution started
+2020-12-30T15:12:50.9517236+08:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\praja\source\repos\SpecFlowAzure\packages\SpecRun.Runner.3.5.8\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-30T15:12:50.9519266+08:00;VSTestExecutionThread;Info;Current UserName: 'PRAJA', MachineName: 'PC86363'
+2020-12-30T15:12:51.0008180+08:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\praja\source\repos\SpecFlowAzure\SpecFlowAzure\bin\Debug\SpecFlowAzure.dll
+2020-12-30T15:12:51.0008180+08:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\praja\source\repos\SpecFlowAzure\TestResults" (default)
+2020-12-30T15:12:51.0017985+08:00;VSTestExecutionThread;Info;Profile: 
+2020-12-30T15:12:51.0531518+08:00;VSTestExecutionThread;Info;Log file path: C:\Users\praja\source\repos\SpecFlowAzure\TestResults\Unnamed project__2020-12-30T151251.log
+2020-12-30T15:12:51.0611156+08:00;Thread#13;Info;Checking activation
+2020-12-30T15:12:51.1379455+08:00;Thread#13;Info;Activated.
+2020-12-30T15:12:51.1379455+08:00;Thread#13;Info;Activation check completed
+2020-12-30T15:12:51.1387904+08:00;Thread#13;Info;Starting test run
+2020-12-30T15:12:51.1839122+08:00;Thread#13;Info;Discovering target: Default
+2020-12-30T15:12:51.1839122+08:00;Thread#13;Info;Discovering tests from assembly: C:\Users\praja\source\repos\SpecFlowAzure\SpecFlowAzure\bin\Debug\SpecFlowAzure.dll
+2020-12-30T15:12:51.5285785+08:00;Thread#13;Info;Discovered tests from assembly: C:\Users\praja\source\repos\SpecFlowAzure\SpecFlowAzure\bin\Debug\SpecFlowAzure.dll
+2020-12-30T15:12:51.5295517+08:00:Test Suite Dump
+2020-12-30T15:12:51.5305587+08:00:#0: Unnamed project/ - 
+2020-12-30T15:12:51.5305587+08:00:#1: Default - 
+2020-12-30T15:12:51.5305587+08:00:#2: SpecFlowAzure - 
+2020-12-30T15:12:51.5305587+08:00:#3: Google Search - 
+2020-12-30T15:12:51.5596594+08:00:#4: Page Search - TestAssembly:SpecFlowAzure/Feature:Google+Search/Scenario:Page+Search
+2020-12-30T15:12:51.5606366+08:00:End: Test Suite Dump
+2020-12-30T15:12:51.5787711+08:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-30T15:12:51.5807694+08:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-30T15:12:51.5807694+08:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-30T15:12:51.5857557+08:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-30T15:12:51.5857557+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-30T15:12:51.5857557+08:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-30T15:12:51.5857557+08:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-30T15:12:51.5877502+08:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-30T15:12:51.5887645+08:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-30T15:12:51.5927427+08:00:Thread #0: creating new test thread executor for SpecFlowAzure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-30T15:12:51.5956995+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-30T15:12:51.5986908+08:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2020-12-30T15:12:51.6007154+08:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2020-12-30T15:12:51.7921789+08:00:Thread#0:T:-> Loading plugin C:\Users\praja\source\repos\SpecFlowAzure\SpecFlowAzure\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-30T15:12:51.7980988+08:00:Thread#0:T:-> Using default config
+2020-12-30T15:12:52.2216410+08:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-30T15:12:52.2476072+08:00:Thread#0:B:Given That I am on the Google Search Page
